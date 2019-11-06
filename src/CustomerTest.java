@@ -1,7 +1,8 @@
-import junit.framework.TestCase;
-import org.junit.runner.JUnitCore;
+import static org.junit.jupiter.api.Assertions.*;
 
-class TestCustomer {
+import org.junit.jupiter.api.Test;
+
+class CustomerTest {
 	@Test
 	void testStatement() {
 		Customer bob = new Customer("Bob");
